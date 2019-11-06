@@ -5,10 +5,12 @@ body {
 
 }
 
-.bordering {
-	border left : 3px solid #5844;
-	border-style: groove;
-	border-left: -30px;
+.header {
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	position: relative;
+	top: -80px;
+	color: #FFFDD0; 
 }
 
 .row {
