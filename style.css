@@ -6,18 +6,22 @@ body {
 
 
 .vl {
-	border-left: 3px solid #5844;
+	/*border-left: 3px solid #5844;*/
+	background-color:black;
   	height: 100%;
+  	width: 100%;
   	position: absolute;
-  	left: 50px;
- 	 top: 0;
+  	left: 10%;
+ 	top: 0;
 }
 
 .vr {
-	border-left: 3px solid #5844;
+	/*border-left: 3px solid #5844;*/
+	background-color:green;
   	height: 100%;
+  	width: 100%;
   	position: absolute;
-  	right: 50px;
+  	right: 10%;
  	top: 0;
 }
 
