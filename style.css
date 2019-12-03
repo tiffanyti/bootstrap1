@@ -7,22 +7,20 @@ body {
 
 .vl {
 	/*border-left: 3px solid #5844;*/
-	background-color:black;
+	background-color: #5844;
   	height: 100%;
   	width: 100%;
   	position: absolute;
   	left: 10%;
- 	top: 0;
 }
 
 .vr {
 	/*border-left: 3px solid #5844;*/
-	background-color:green;
+	background-color: #5844;
   	height: 100%;
   	width: 100%;
   	position: absolute;
   	right: 10%;
- 	top: 0;
 }
 
 .header {
