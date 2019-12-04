@@ -4,23 +4,22 @@ body {
 	color: #573E35;
 }
 
-
 .vl {
-	/*border-left: 3px solid #5844;*/
-	background-color: #5844;
-  	height: 100%;
-  	width: 100%;
-  	position: absolute;
-  	left: 10%;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	border: 3px solid #5844;
+	top: 0;
+	left: 100px;
 }
 
 .vr {
-	/*border-left: 3px solid #5844;*/
-	background-color: #5844;
-  	height: 100%;
-  	width: 100%;
-  	position: absolute;
-  	right: 10%;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	border: 3px solid #5844;
+	top: 0;
+	right: 100px;
 }
 
 .header {
