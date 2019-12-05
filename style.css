@@ -10,7 +10,7 @@ body {
 	position: absolute;
 	border: 3px solid #5844;
 	top: 0;
-	left: 100px;
+	left: 20px;
 }
 
 .vr {
@@ -19,7 +19,7 @@ body {
 	position: absolute;
 	border: 3px solid #5844;
 	top: 0;
-	right: 100px;
+	right: 20px;
 }
 
 .header {
@@ -46,4 +46,39 @@ hr {
 
 .glyphicon {
 	font-size: 20px;
+}
+
+.hrbawah {
+	width: 1000px; 
+	margin-bottom: 10px
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	.header {
+		font-size: 40px;
+	}
+
+	.hrbawah {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.vl {
+		display: none;
+	}
+
+	.vr {
+		display: none;
+	}
+
+	.header {
+		font-size: 20px;
+	}
+
+	.hrbawah {
+		width: 250px;
+	}
 }
